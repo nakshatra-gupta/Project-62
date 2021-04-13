@@ -1,0 +1,167 @@
+<html>
+<html lang="en">
+
+<head>
+    <title>Picture Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section id="Grid">
+        <h1>Grid</h1>
+        <div class="line"></div>
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+            .grid-item {
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+        </style>
+        <div class="grid-container">
+            <div class="grid-item"> <img src="https://images.theconversation.com/files/175539/original/file-20170626-315-1h7k01d.jpg?ixlib=rb-1.1.0&rect=0%2C618%2C3500%2C1697&q=45&auto=format&w=1356&h=668&fit=crop" height="200" width="400"> </div>
+            <div class="grid-item"> <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg" height="200" width="400"></div>
+            <div class="grid-item"> <img src="https://www.denofgeek.com/wp-content/uploads/2019/02/mcu-1-iron-man.jpg?resize=768%2C432" height="200" width="400"></div>
+            <div class="grid-item"> <img src="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg" height="200" width="400"></div>
+            <div class="grid-item"> <img src="https://static01.nyt.com/images/2017/11/02/arts/03thor-webmain/03thor-webmain-articleLarge.jpg?quality=75&auto=webp&disable=upscale" height="200" width="400"></div>
+            <div class="grid-item"> <img src="https://www.rollingstone.com/wp-content/uploads/2018/07/ant-man-and-the-wasp-review-f5832958-5683-48a3-aeb1-2f2dfdf14f47.jpg?resize=1800,1200&w=1800" height="200" width="400"></div>
+            <div class="grid-item"> <img src="https://www.nme.com/wp-content/uploads/2020/09/090220-Black-Panther-Chadwick-Boseman-Disney.jpg" height="200" width="400"></div>
+            <div class="grid-item"> <img src="https://upload.wikimedia.org/wikipedia/en/f/fc/Paul_Bettany_as_Vision.jpg" height="200" width="400"></div>
+            <div class="grid-item"> <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/_falcon_card.jpg" height="200" width="400"></div>
+        </div>
+
+
+    </section>
+
+    <h3>
+        Slider
+    </h3>
+    <div id="mycarousel" class="carousel slide">
+        <div class="carousel-inner">
+
+
+
+            <div class="item active">
+                <center>
+                    <a href="https://images.theconversation.com/files/175539/original/file-20170626-315-1h7k01d.jpg?ixlib=rb-1.1.0&rect=0%2C618%2C3500%2C1697&q=45&auto=format&w=1356&h=668&fit=crop" height=" 200" width="400" target=_blank>
+                        <img src="https://images.theconversation.com/files/175539/original/file-20170626-315-1h7k01d.jpg?ixlib=rb-1.1.0&rect=0%2C618%2C3500%2C1697&q=45&auto=format&w=1356&h=668&fit=crop" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Spider Man</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg" height=" 200" width="400" target=_blank>
+                        <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Captain America</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://www.denofgeek.com/wp-content/uploads/2019/02/mcu-1-iron-man.jpg?resize=768%2C432" height=" 200" width="400" target=_blank>
+                        <img src="https://www.denofgeek.com/wp-content/uploads/2019/02/mcu-1-iron-man.jpg?resize=768%2C432" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Iron Man</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg" height=" 200" width="400" target=_blank>
+                        <img src="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Hulk</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://static01.nyt.com/images/2017/11/02/arts/03thor-webmain/03thor-webmain-articleLarge.jpg?quality=75&auto=webp&disable=upscale" height=" 200" width="400" target=_blank>
+                        <img src="https://static01.nyt.com/images/2017/11/02/arts/03thor-webmain/03thor-webmain-articleLarge.jpg?quality=75&auto=webp&disable=upscale" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Thor</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://www.rollingstone.com/wp-content/uploads/2018/07/ant-man-and-the-wasp-review-f5832958-5683-48a3-aeb1-2f2dfdf14f47.jpg?resize=1800,1200&w=1800" height=" 200" width="400" target=_blank>
+                        <img src="https://www.rollingstone.com/wp-content/uploads/2018/07/ant-man-and-the-wasp-review-f5832958-5683-48a3-aeb1-2f2dfdf14f47.jpg?resize=1800,1200&w=1800" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Ant Man</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://www.nme.com/wp-content/uploads/2020/09/090220-Black-Panther-Chadwick-Boseman-Disney.jpg" height=" 200" width="400" target=_blank>
+                        <img src="https://www.nme.com/wp-content/uploads/2020/09/090220-Black-Panther-Chadwick-Boseman-Disney.jpg" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Black Panther</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://upload.wikimedia.org/wikipedia/en/f/fc/Paul_Bettany_as_Vision.jpg" height=" 200" width="400" target=_blank>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/f/fc/Paul_Bettany_as_Vision.jpg" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Vision</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://terrigen-cdn-dev.marvel.com/content/prod/1x/_falcon_card.jpg" height=" 200" width="400" target=_blank>
+                        <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/_falcon_card.jpg" height=" 200" width="400" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Falcon</p>
+                    </div>
+                </center>
+            </div>
+
+        </div>
+        <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left">
+
+            </span>
+        </a>
+        <a class="right carousel-control" href="#mycarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right">
+
+            </span>
+        </a>
+
+
+
+    </div>
+</body>
+
+</html>
+
+</html>
